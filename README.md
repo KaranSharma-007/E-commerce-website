@@ -1,11 +1,15 @@
-## 🎯 About This Project
+<img width="1457" height="828" alt="Screenshot 2026-02-05 at 23 19 42" src="https://github.com/user-attachments/assets/0cd62be2-fe35-4527-8c7f-69e52d638b68" />## 🎯 About This Project
 
 This is a **portfolio project** demonstrating production-ready full-stack development 
 with modern technologies and industry best practices.
 
 ### ✨ Live Demo
-**Frontend:** https://your-site.onrender.com  
-**Admin Panel:** https://your-site.onrender.com/admin
+**Frontend:** https://app-frontend-t1ix.onrender.com
+<img width="1444" height="827" alt="Screenshot 2026-02-05 at 23 19 28" src="https://github.com/user-attachments/assets/346ddcee-2d1d-4fd8-98b9-b6447214e40f" />
+<img width="1457" height="828" alt="Screenshot 2026-02-05 at 23 19 42" src="https://github.com/user-attachments/assets/5b541c86-9755-49ce-91b4-99e910f8afd6" />
+
+
+**Admin Panel:** 
 
 **Demo Credentials:**
 - Customer: `demo@example.com` / `Demo123!`
