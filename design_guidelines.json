@@ -1,0 +1,201 @@
+{
+  "identity": {
+    "name": "E1",
+    "mission": "Create a production-ready, Apple-inspired minimalist e-commerce experience that feels premium, trustworthy, and frictionless.",
+    "principles": [
+      "Fusion over Imitation: Mix Apple's precision with editorial warmth.",
+      "Emotion First: Calm, clarity, and desire.",
+      "Content is King: Products are the heroes; UI recedes.",
+      "Negative Space: Radical use of whitespace to create luxury.",
+      "Contrast: Sharp text against soft backgrounds."
+    ]
+  },
+  "typography": {
+    "fonts": {
+      "primary": "Inter, sans-serif",
+      "secondary": "Montserrat, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "usage": {
+      "headings": "Montserrat",
+      "body": "Inter",
+      "ui": "Inter"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed",
+      "caption": "text-sm text-muted-foreground tracking-wide uppercase"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "default": "#FFFFFF",
+        "subtle": "#F5F5F7",
+        "dark": "#1D1D1F"
+      },
+      "foreground": {
+        "default": "#1D1D1F",
+        "muted": "#86868B",
+        "inverse": "#FFFFFF"
+      },
+      "primary": {
+        "default": "#000000",
+        "hover": "#333333",
+        "active": "#000000"
+      },
+      "accent": {
+        "blue": "#0071E3",
+        "error": "#FF3B30",
+        "success": "#34C759",
+        "warning": "#FF9500"
+      },
+      "border": {
+        "default": "#E5E5E5",
+        "subtle": "#F2F2F2"
+      }
+    },
+    "theme": "light",
+    "rules": [
+      "Never use pure black (#000000) for text; use #1D1D1F.",
+      "Backgrounds should be #FFFFFF or #F5F5F7 (Apple Gray).",
+      "Primary actions (Buy, Checkout) should be solid Black (#000000) or Apple Blue (#0071E3).",
+      "Use glassmorphism for sticky headers: bg-white/80 backdrop-blur-md."
+    ]
+  },
+  "spacing": {
+    "scale": [
+      "p-4",
+      "p-6",
+      "p-8",
+      "p-12",
+      "p-16",
+      "p-24",
+      "p-32"
+    ],
+    "layout_rules": [
+      "Use 'container mx-auto px-4 md:px-6' for main content wrappers.",
+      "Section spacing: py-16 md:py-24.",
+      "Grid gaps: gap-6 md:gap-8.",
+      "Bento Grids: Use for feature highlights (mix of col-span-1 and col-span-2)."
+    ]
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-black text-white hover:bg-gray-800 rounded-full px-8 py-3 font-medium transition-all duration-300 hover:scale-105",
+      "secondary": "bg-gray-100 text-gray-900 hover:bg-gray-200 rounded-full px-6 py-2 font-medium transition-all",
+      "outline": "border border-gray-300 text-gray-900 hover:border-gray-900 rounded-full px-6 py-2 transition-all",
+      "ghost": "text-gray-600 hover:text-black hover:bg-gray-50 rounded-lg px-4 py-2 transition-all"
+    },
+    "cards": {
+      "product": "group relative bg-white rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl border border-transparent hover:border-gray-100",
+      "feature": "bg-gray-50 rounded-3xl p-8 transition-all hover:bg-gray-100"
+    },
+    "inputs": {
+      "default": "h-12 rounded-lg border-gray-200 bg-white px-4 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all"
+    },
+    "navigation": {
+      "header": "sticky top-0 z-50 w-full border-b border-gray-200/50 bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/60"
+    }
+  },
+  "visual_enhancers": {
+    "radius": {
+      "default": "rounded-xl",
+      "large": "rounded-2xl",
+      "pill": "rounded-full"
+    },
+    "shadows": {
+      "subtle": "shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]",
+      "hover": "shadow-[0_20px_40px_-12px_rgba(0,0,0,0.1)]",
+      "glass": "shadow-[0_8px_32px_0_rgba(31,38,135,0.07)]"
+    },
+    "glassmorphism": "backdrop-blur-xl bg-white/70 border border-white/20 shadow-sm",
+    "animations": {
+      "hover": "transition-all duration-300 ease-out",
+      "fade_in": "animate-in fade-in duration-500",
+      "slide_up": "animate-in slide-in-from-bottom-4 duration-500"
+    }
+  },
+  "images": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1644566622057-baae2f78f652?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Minimalist White Desk Setup",
+        "category": "hero_lifestyle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1570305109029-a0059a91f8f7?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Clean Workstation Monitor",
+        "category": "hero_lifestyle"
+      }
+    ],
+    "products": {
+      "tech": [
+        {
+          "url": "https://images.unsplash.com/photo-1560718217-69193acc0713?crop=entropy&cs=srgb&fm=jpg&q=85",
+          "alt": "Sleek Black Headphones",
+          "price": "$299",
+          "name": "Sonic Pro X"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1733908511568-3abc819b21b5?crop=entropy&cs=srgb&fm=jpg&q=85",
+          "alt": "Minimalist Smart Watch",
+          "price": "$399",
+          "name": "Horizon Watch"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1655804484380-51f5a639f2e8?crop=entropy&cs=srgb&fm=jpg&q=85",
+          "alt": "Wireless Earbuds",
+          "price": "$149",
+          "name": "AirFlow Buds"
+        }
+      ],
+      "home": [
+        {
+          "url": "https://images.unsplash.com/photo-1765277114329-b3da8e70731e?crop=entropy&cs=srgb&fm=jpg&q=85",
+          "alt": "Ceramic Vases",
+          "price": "$89",
+          "name": "Artisan Vase Set"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1761330439316-72229b71798f?crop=entropy&cs=srgb&fm=jpg&q=85",
+          "alt": "Modern Armchair",
+          "price": "$599",
+          "name": "Lounge Chair"
+        }
+      ]
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install 'Montserrat' font from Google Fonts.",
+    "Use 'lucide-react' for icons (stroke-width=1.5 for elegance).",
+    "Implement a 'CartDrawer' using Shadcn Sheet component.",
+    "Use 'Sonner' for toast notifications.",
+    "Ensure all images have 'object-cover' and 'transition-transform duration-500 group-hover:scale-105'.",
+    "For the Product Detail Page, use a sticky sidebar for product info on desktop.",
+    "For the Checkout, use a clean, distraction-free layout (remove main nav).",
+    "Use 'framer-motion' for page transitions and scroll reveals."
+  ],
+  "universal_guidelines": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: 'transition: all'.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped.",
+    "NEVER use AI assistant Emoji characters.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "All interactive and key informational elements MUST include a 'data-testid' attribute."
+  ]
+}
