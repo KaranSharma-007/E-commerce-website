@@ -15,7 +15,7 @@ with modern technologies and industry best practices.
 
 **Demo Credentials:**
 - Customer: `demo@example.com` / `Demo123!`
-- Admin: `admin@example.com` / `Admin123!`
+- Admin: `reach out for admin demo`
 
 > 💡 **Note:** This is a demonstration project. Feel free to explore all features!
 
