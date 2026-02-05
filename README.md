@@ -10,6 +10,8 @@ with modern technologies and industry best practices.
 
 
 **Admin Panel:** 
+<img width="1433" height="808" alt="Screenshot 2026-02-05 at 23 22 03" src="https://github.com/user-attachments/assets/9f82b5e6-1188-4b2c-a8a2-ae7cc5face55" />
+<img width="1443" height="795" alt="Screenshot 2026-02-05 at 23 22 35" src="https://github.com/user-attachments/assets/586e540d-e2ae-4132-855a-b8ff162b7b59" />
 
 **Demo Credentials:**
 - Customer: `demo@example.com` / `Demo123!`
