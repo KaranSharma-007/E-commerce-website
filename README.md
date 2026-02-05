@@ -1,4 +1,4 @@
-<img width="1457" height="828" alt="Screenshot 2026-02-05 at 23 19 42" src="https://github.com/user-attachments/assets/0cd62be2-fe35-4527-8c7f-69e52d638b68" />## 🎯 About This Project
+## 🎯 About This Project
 
 This is a **portfolio project** demonstrating production-ready full-stack development 
 with modern technologies and industry best practices.
